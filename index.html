@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./style.css">
+ <!-- Google Fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+ <!-- Carga de CSS de Boostrap-->
+ <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.min.css">
+ <script defer src="./bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
+ <title>Document</title>
+</head>
+
+<body>
+ <div class="container">
+  <!-- Navbar -->
+  <header>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+     </button>
+     <a class="navbar-brand" href="#">
+      <img src="./ampproject-official.svg" alt="" height="50"></a>
+     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+       </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+         aria-expanded="false">
+         Dropdown
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+         <li><a class="dropdown-item" href="#">Action</a></li>
+         <li><a class="dropdown-item" href="#">Another action</a></li>
+         <li>
+          <hr class="dropdown-divider">
+         </li>
+         <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+       </li>
+      </ul>
+      <form class="d-flex">
+       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+       <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+     </div>
+    </div>
+   </nav>
+  </header>
+
+  <!-- top image -->
+  <section class="mt-5">
+   <div class="row">
+    <h1 class="text-end">Beat on the brat</h1>
+    <div class="d-flex top-image px-4 align-items-center justify-content-end">
+     <div class="bg-dark  text-white text-box col-12 col-md-6 col-lg-4 p-4 bg-opacity-50 rounded-2 text-center">
+      <p class="fs-5">Almost before we knew it, we had left the ground.</p>
+     </div>
+    </div>
+   </div>
+  </section>
+ </div>
+ <!-- container fluid para los svg -->
+ <div class="container-fluid">
+
+  <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+   <path d="M-12.97,117.94 C46.27,127.80 211.62,112.02 500.00,49.98 L500.00,150.00 L-41.76,197.88 Z"
+    style="stroke: none; fill: #08f;"></path>
+  </svg>
+  <article class="bg-blue">
+
+   <div class="row justify-content-center px-3 px-lg-4">
+
+    <div class="col col-md-8 col-lg-6 my-5">
+
+     <h2 class="text-center">Lorem ipsum dolor sit amet</h2>
+     <p class="text-white fs-5 lead">Consectetur quibusdam, delectus necessitatibus porro dolore recusandae esse
+      laudantium
+      temporibus
+      distinctio
+      velit! Maxime eveniet id fugit repellat quod consequatur impedit aspernatur illo.
+      Maiores accusamus necessitatibus numquam veniam mollitia explicabo dolorum harum illo deleniti officia eveniet
+      aspernatur iste consequuntur nemo maxime et quasi cupiditate sapiente aliquam modi quo, consectetur ipsam.
+      Perferendis, vel enim?</p>
+    </div>
+  </article>
+
+  <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+   <path d="M-29.91,113.98 C133.74,84.38 505.07,-48.83 510.72,117.94 L500.00,0.00 L0.00,0.00 Z"
+    style="stroke: none; fill: #08f;"></path>
+  </svg>
+ </div>
+ <div class="container mb-5">
+  <!-- Carousel -->
+  <div class="row justify-content-center mb-5">
+   <div id="carouselExampleCaptions" class="carousel slide col-12 col-md-8 col-lg-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+      aria-current="true" aria-label="Slide 1"></button>
+     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+     <div class="carousel-item active">
+      <img src="https://picsum.photos/600/300?random=1" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+       <h5>First slide label</h5>
+       <p>Some representative placeholder content for the first slide.</p>
+      </div>
+     </div>
+     <div class="carousel-item">
+      <img src="https://picsum.photos/600/300?random=2" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+       <h5>Second slide label</h5>
+       <p>Some representative placeholder content for the second slide.</p>
+      </div>
+     </div>
+     <div class="carousel-item">
+      <img src="https://picsum.photos/600/300?random=3" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+       <h5>Third slide label</h5>
+       <p>Some representative placeholder content for the third slide.</p>
+      </div>
+     </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Next</span>
+    </button>
+   </div>
+  </div>
+ </div>
+
+
+ <!-- accordion -->
+
+ <div class="container mt-5">
+  <article class="my-5">
+   <header class="mt-5 text-center">
+    <h2>Fulugonio Galuccio Mostron</h2>
+   </header>
+   <div class="row justify-content-center mb-5">
+
+    <div class="accordion col-12 col-md-8 col-lg-6 mb-5" id="accordionExample">
+     <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+        aria-expanded="true" aria-controls="collapseOne">
+        Vopolipi Gopomapa Karacachoff muito gostoso
+       </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+       data-bs-parent="#accordionExample">
+       <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds
+        the
+        appropriate classes that we use to style each element. These classes control the overall appearance, as well as
+        the
+        showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default
+        variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+        though
+        the transition does limit overflow.
+       </div>
+      </div>
+     </div>
+
+     <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+        aria-expanded="false" aria-controls="collapseTwo">
+        Consectetur adipiscing elit curabitur tempor
+       </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+       data-bs-parent="#accordionExample">
+       <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin
+        adds
+        the appropriate classes that we use to style each element. These classes control the overall appearance, as well
+        as
+        the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default
+        variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+        though
+        the transition does limit overflow.
+       </div>
+      </div>
+     </div>
+     <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Ad astra per aspera Margueritte Gurlovich
+       </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+       data-bs-parent="#accordionExample">
+       <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
+        adds
+        the appropriate classes that we use to style each element. These classes control the overall appearance, as well
+        as
+        the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default
+        variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>,
+        though
+        the transition does limit overflow.
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </article>
+ </div>
+
+ <!-- container fluid para los svg -->
+ <div class="container-fluid">
+
+  <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+   <path d="M-6.20,-6.39 C150.67,74.52 386.57,7.42 519.74,1.50 L500.00,150.00 L0.00,150.00 Z"
+    style="stroke: none; fill: #acfcee;"></path>
+  </svg>
+  <div class="bg-aquagreen">
+   <article class="row justify-content-evenly">
+    <div class="card col-8 col-sm-5 col-lg-3 shadow p-3 mb-5 bg-body rounded">
+     <img src="https://picsum.photos/200" class="card-img-top py-3 " alt="...">
+     <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+       content.</p>
+     </div>
+    </div>
+    <div class="card col-8 col-sm-5 col-lg-3 shadow p-3 mb-5 bg-body rounded">
+     <img src="https://picsum.photos/200" class="card-img-top py-3" alt="...">
+     <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+       content.</p>
+     </div>
+    </div>
+    <div class="card col-8 col-sm-5 col-lg-3 shadow p-3 mb-5 bg-body rounded">
+     <img src="https://picsum.photos/200" class="card-img-top py-3" alt="...">
+     <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+       content.</p>
+     </div>
+    </div>
+
+
+   </article>
+  </div>
+
+  <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+   <path d="M-18.06,132.73 C206.55,93.27 164.78,190.97 512.41,118.92 L500.00,0.00 L0.00,0.00 Z"
+    style="stroke: none; fill: #acfcee;"></path>
+  </svg>
+ </div>
+
+ </div>
+</body>
+
+</html>
